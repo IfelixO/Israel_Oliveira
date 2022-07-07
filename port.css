@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono&family=Sarala:wght@400;700&display=swap');
+
+@keyframes tecnologiasPrimeira{
+    to {
+        transform: translateX(+500px)
+    }
+}
+
+@keyframes tecnologiasTerceira{
+    to {
+        transform: translateX(-500px)
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20% 20px 20%;
+    align-items: center;
+    background-color: #DFE0DF;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 3;
+
+}
+
+.logo {
+    height: 100px;
+}
+
+.cabecalho-abas {
+    font-size: 23px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+    align-items: center;
+}
+
+.cabecalho-nav-item {
+    font-weight: bolder;
+    color: #565E77;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: fit-content;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-banner {
+    padding-right: 20vw;
+    padding: 30vh 10vw;
+    height: 90vh max-content;
+    width: 100%;
+    background-image: url(./materiais/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #DFE0DF;
+}
+
+.conteudo-banner-titulo{
+    font-size: 100px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.conteudo-banner-descricao {
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 1;
+    text-align: right;
+    max-width: 50vw;
+}
+
+.conteudo-banner-botao {
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 200;
+    color: hsl(120, 2%, 88%);
+    background-color: hsl(263, 29%, 31%);
+    padding: 20px 80px;
+    border-radius: 10px;
+    min-width: fit-content;
+}
+
+.conteudo-banner-botao:hover {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-main {
+    width: 100%;
+}
+
+.conteudo-sobre {
+    padding: 70px 5% 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: hsl(225, 16%, 20%);
+    background-color: #8597BF;
+    width: 100%;
+}
+
+.conteudo-sobre-fato {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 5% 10vh;
+    Gap: 50px;
+}
+
+.conteudo-sobre-imagem {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.conteudo-sobre-titulo {
+    margin: 0 auto;
+    font-size: 50px;
+    
+}
+
+.conteudo-sobre-descricao {
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#sobre-imagem-segundo {
+    padding: 15px;
+}
+
+.conteudo-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 150px;
+    background: linear-gradient(180deg, #8597BF, #B9C0BD); 
+    color: hsl(225, 16%, 30%);
+}
+
+.conteudo-projetos-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-projetos-header-titulo {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.conteudo-projetos-header-descricao {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    width: fit-content;
+    max-width: 70vw;
+}
+
+.conteudo-projetos-main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+#projetos-escondidos {
+    display: none;
+    justify-content: space-evenly;
+    gap: 5%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.conteudo-projetos-projeto {
+    width: 800px;
+    height: 400px;
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D4A3E;
+    opacity: 0.7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-projetos-link {
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#projetos-primeiro{
+        background-image: url(./materiais/henrique\ fotografia.png);
+        background-size: 100%;
+        background-position-y: center;
+}
+
+.conteudo-projetos-projeto:hover{
+    opacity: 1;
+}
+
+.conteudo-projetos-nome {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+    color: white;
+    z-index: 0;    
+}
+
+.conteudo-projetos-botao {
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 200;
+    color: hsl(120, 2%, 88%);
+    background-color: hsl(263, 29%, 31%);
+    padding: 20px 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.conteudo-projetos-botao:hover {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#projetos-botao-mais {
+    display: block;
+}
+
+#projetos-botao-menos {
+    display: none;
+}
+
+
+.conteudo-tecnologias {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #B9C0BD;
+    color: hsl(225, 16%, 30%);
+}
+
+.conteudo-titulo {
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000
+}
+
+ .conteudo-tecnologias-main {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.conteudo-tecnologia-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-tecnologias-imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.conteudo-tecnologias-imagens-estudo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15%;
+}
+
+.conteudo-tecnologias-imagens-interesse {
+    display: flex;
+    padding-top: 10%;
+    border-top: 2px solid #353535;
+    flex-wrap: wrap;
+    width: 750px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.conteudo-tecnologias-imagem-estudo {
+    width: 400px;
+    position: relative;
+}
+
+.conteudo-tecnologias-imagem-interesse {
+    width:200px;
+}
+
+#tecnologia-imagem-primeiro {
+    z-index: 0;
+    left: 150px;
+    animation: tecnologiasPrimeira 4s linear infinite alternate-reverse
+}
+
+#tecnologia-imagem-segundo {
+    z-index: 1;
+}
+
+#tecnologia-imagem-terceiro {
+    z-index: 2;
+    right: 150px;
+    animation: tecnologiasTerceira 4s linear infinite alternate-reverse;
+}
+
+
+.conteudo-tecnologias-descricao {
+    width: max-content;
+    max-width: 750px;
+    font-size: 30px;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 50px;
+} 
+
+.conteudo-contato {
+    height: 1140px;
+    width: 100%;
+    background-image: url(./materiais/contato1.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 0px -30px 40px 10px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-contato-titulo {
+    color: white;
+    font-size: 100px;
+    font-weight: 1000;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 0px 40px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+}
+
+.conteudo-contato-botoes {
+    display: flex;
+    align-content: right;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.conteudo-contato-botao {
+    height: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-contato-link{
+    width: 300px;
+    height: 76px;
+    border-radius: 10px;
+   
+}
+
+.conteudo-contato-link:hover {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#linkedin {
+    background-image: url(https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#link-linkedin, #linkedin {
+    width: 301px;
+}
+
+#github {
+    background-image: url(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#link-github, #github {
+    width: 259px;
+}
+
+#email {
+    background-image: url(https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#link-email, #email {
+    width: 236px;
+}
+
+#telefone {
+    background-image: url(./materiais/phone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#link-telefone, #telefone {
+    width: 265px;
+}
+
+#whatsapp {
+    background-image: url(https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#link-whatsapp, #whatsapp {
+    width: 314px;
+}
+
+.botao-topo {
+    position: fixed;
+    right: 1vw;
+    bottom: 1vh;
+}
+
+.seta-topo {
+    height: 80px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    padding: 20px 20% 20px 20%;
+    align-items: center;
+    background-color: #B9C0BD;
+}
+
+.rodape-texto {
+    font-size: 25px;
+}
+
