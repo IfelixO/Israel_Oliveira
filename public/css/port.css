@@ -24,14 +24,13 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20% 20px 20%;
+    padding: 20px 20%;
     align-items: center;
     background-color: #DFE0DF;
     width: 100%;
-    height: fit-content;
+    height: 10vh;
     position: fixed;
     z-index: 3;
-
 }
 
 .logo {
@@ -39,7 +38,7 @@
 }
 
 .cabecalho-abas {
-    font-size: 23px;
+    font-size: 1.4rem;
     width: 30%;
     display: flex;
     justify-content: space-around;
@@ -55,6 +54,10 @@
     min-width: fit-content;
 }
 
+.cabecalho-menu {
+    display: none;
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
@@ -62,15 +65,13 @@
 }
 
 .conteudo-banner {
-    padding-right: 20vw;
     padding: 30vh 10vw;
     height: 90vh max-content;
     width: 100%;
-    background-image: url(./materiais/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -78,14 +79,14 @@
 }
 
 .conteudo-banner-titulo{
-    font-size: 100px;
+    font-size: 6.5rem;
     text-align: center;
     font-weight: 1000;
 }
 
 .conteudo-banner-descricao {
     margin-top: 5%;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 1;
     text-align: right;
     max-width: 50vw;
@@ -93,7 +94,7 @@
 
 .conteudo-banner-botao {
     margin-top: 1%;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 200;
     color: hsl(120, 2%, 88%);
     background-color: hsl(263, 29%, 31%);
@@ -137,14 +138,14 @@
 
 .conteudo-sobre-titulo {
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 3rem;
     
 }
 
 .conteudo-sobre-descricao {
     text-align: justify;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 1.9rem;
 }
 
 #sobre-imagem-segundo {
@@ -169,14 +170,14 @@
 }
 
 .conteudo-projetos-header-titulo {
-    font-size: 65px;
+    font-size: 4rem;
     text-align: center;
     font-weight: 1000;
 }
 
 .conteudo-projetos-header-descricao {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 1.9rem;
     text-align: center;
     font-weight: 500;
     width: fit-content;
@@ -221,7 +222,7 @@
 }
 
 #projetos-primeiro{
-        background-image: url(./materiais/henrique\ fotografia.png);
+        background-image: url(../img/henrique\ fotografia.png);
         background-size: 100%;
         background-position-y: center;
 }
@@ -232,7 +233,7 @@
 
 .conteudo-projetos-nome {
     position: absolute;
-    font-size: 30px;
+    font-size: 1.9rem;
     text-align: center;
     font-weight: 1000;
     color: white;
@@ -241,7 +242,7 @@
 
 .conteudo-projetos-botao {
     margin-top: 20%;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 200;
     color: hsl(120, 2%, 88%);
     background-color: hsl(263, 29%, 31%);
@@ -274,7 +275,7 @@
 
 .conteudo-titulo {
     text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
     font-weight: 1000
 }
@@ -312,6 +313,7 @@
     border-top: 2px solid #353535;
     flex-wrap: wrap;
     width: 750px;
+    max-width: 80vw;
     justify-content: center;
     gap: 20px;
 }
@@ -328,7 +330,7 @@
 #tecnologia-imagem-primeiro {
     z-index: 0;
     left: 150px;
-    animation: tecnologiasPrimeira 4s linear infinite alternate-reverse
+    animation: tecnologiasPrimeira 4s linear infinite alternate-reverse;
 }
 
 #tecnologia-imagem-segundo {
@@ -343,9 +345,9 @@
 
 
 .conteudo-tecnologias-descricao {
-    width: max-content;
-    max-width: 750px;
-    font-size: 30px;
+    width: 750px;
+    max-width: 80vw;
+    font-size: 1.9rem;
     text-align: right;
     font-weight: 500;
     margin-bottom: 50px;
@@ -354,7 +356,7 @@
 .conteudo-contato {
     height: 1140px;
     width: 100%;
-    background-image: url(./materiais/contato1.gif);
+    background-image: url(../img/contato1.gif);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -368,7 +370,7 @@
 
 .conteudo-contato-titulo {
     color: white;
-    font-size: 100px;
+    font-size: 6rem;
     font-weight: 1000;
     margin-top: 20rem;
     margin-bottom: 5rem;
@@ -435,7 +437,7 @@
 }
 
 #telefone {
-    background-image: url(./materiais/phone.png);
+    background-image: url(../img/phone.png);
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10px;
@@ -476,6 +478,264 @@
 }
 
 .rodape-texto {
-    font-size: 25px;
+    font-size: 1.4rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    
+    @keyframes tecnologiasPrimeira{
+        to {
+            transform: translateX(+100px)
+        }
+    }
+    
+    @keyframes tecnologiasTerceira{
+        to {
+            transform: translateX(-100px)
+        }
+    }
+
+    @keyframes navLateral{
+        from {
+            opacity: 0;
+        }
+        to {
+        opacity: 1;
+        }
+    }
+    
+    :root {
+        font-size: 8px;
+    }
+
+    .cabecalho {
+        padding: 20px 15%;
+    }
+
+        
+    .cabecalho-menu {
+        display: block;
+    }
+    
+    .cabecalho-menu-linha {
+        background-color: #565E77;
+        height: 3px;
+        width: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .cabecalho-menu-linhaX1 {
+        background-color: #565E77;
+        height: 3px;
+        width: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        transform: rotate(-45deg) translateY(5.5px);
+    }
+
+    .cabecalho-menu-linhaX2 {
+        display: none;
+    }
+
+    .cabecalho-menu-linhaX3 {
+        background-color: #565E77;
+        height: 3px;
+        width: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        transform: rotate(45deg) translateY(-5.5px);
+    }
+
+    .cabecalho-abas {
+        display: none;
+    }
+
+    .cabecalho-abas-lateral {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 10px;
+        padding-bottom: 10px;
+        right: 0px;
+        top: 10vh;
+        background-color: #DFE0DF;
+        opacity: 0;
+        animation: navLateral 1s forwards;
+    }
+    
+    .logo {
+        height: 50px;
+    }
+    
+    .conteudo-banner {
+        padding-top: 50%;
+        background-position: 35%;
+    }
+    
+    .conteudo-banner-titulo{
+        text-align: right;
+    }
+    
+    .conteudo-banner-botao {
+        margin-top: 10%;
+        padding: 10px 40px;
+        border-radius: 10px;
+    }
+    
+    .conteudo-sobre-fato {
+        width: 80vw;
+        margin: 0px 0px 50px;
+        Gap: 10px;
+    }
+    
+    .conteudo-sobre-imagem {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .conteudo-sobre-descricao {
+        font-size: 2.2rem;
+    }
+
+    .conteudo-projetos {
+        padding-top: 50px;
+    }
+    
+    .conteudo-projetos-header-descricao {
+        margin-top: 30px;
+        font-size: 2.2rem;
+    }
+    
+    .conteudo-projetos-main {
+        margin-top: 10%;
+    }
+    
+    .conteudo-projetos-projeto {
+        width: 300px;
+        height: 170px;
+        margin: 3% auto;
+        border-radius: 10px;
+    }
+    
+    .conteudo-projetos-link {
+        width: 300px;
+        height: 170px;
+        border-radius: 10px;
+    }
+    
+    .conteudo-projetos-nome {
+        font-size: 2.2rem;
+    }
+    
+    .conteudo-projetos-botao {
+        font-size: 1.8rem;
+    }    
+
+     .conteudo-tecnologias-main {
+        margin: 70px 0px 50px;
+    }
+    
+    .conteudo-tecnologias-imagens-estudo {
+        margin-top: 30px;
+    }
+    
+    .conteudo-tecnologias-imagem-estudo {
+        width: 100px;
+    }
+    
+    .conteudo-tecnologias-imagem-interesse {
+        width:70px;
+    }
+    
+    #tecnologia-imagem-primeiro {
+        left: 60px;
+    }
+    
+    #tecnologia-imagem-terceiro {
+        right: 60px;
+    }
+    
+    .conteudo-tecnologias-descricao {
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+    } 
+   
+    .conteudo-contato {
+        height: 450px;
+        background-position: 25%;
+        padding: 0px;
+        align-items: center;
+    }
+    
+    .conteudo-contato-titulo {
+        margin-top: 50px;
+    }
+    
+    .conteudo-contato-botoes {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .conteudo-contato-botao {
+        height: 40px;
+        margin: 0 auto;
+    }
+    
+    .conteudo-contato-link{
+        width: 150px;
+        height: 45px;       
+    }
+    
+    #link-linkedin, #linkedin {
+        width: 155px;
+    }
+    
+    #link-github, #github {
+        width: 137px;
+    }
+    
+    #link-email, #email {
+        width: 125px;
+    }
+
+    #link-telefone, #telefone {
+        width: 138px;
+    }
+
+    #link-whatsapp, #whatsapp {
+        width: 165px;
+    }
+    
+    .seta-topo {
+        height: 50px;
+    }
+    
+    .rodape {
+        gap: 20%;
+        padding: 20px 15%;
+    }
+    
+    .rodape-texto {
+        text-align: right;
+    }
+}
