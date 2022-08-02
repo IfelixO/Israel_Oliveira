@@ -222,9 +222,16 @@
 }
 
 #projetos-primeiro{
-        background-image: url(../img/henrique\ fotografia.png);
-        background-size: 100%;
-        background-position-y: center;
+    background-image: url(../img/henrique\ fotografia.png);
+    background-size: 100%;
+    background-position-y: center;
+}
+
+#projetos-segundo {
+    background-color: black;
+    background-image: url(../img/Coffee_Projeto.png);
+    background-size: 100%;
+    background-position-y: center;
 }
 
 .conteudo-projetos-projeto:hover{
