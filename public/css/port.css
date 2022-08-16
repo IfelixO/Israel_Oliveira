@@ -234,6 +234,17 @@
     background-position-y: center;
 }
 
+#projetos-terceiro{
+    background-image: url(../img/gitcard_projeto.jpg);
+    background-size: 100%;
+    background-position-y: center;
+    opacity: 0.5;
+}
+
+#projetos-terceiro:hover{
+    opacity: 0.85;
+}
+
 .conteudo-projetos-projeto:hover{
     opacity: 1;
 }
