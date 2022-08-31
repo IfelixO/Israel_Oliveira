@@ -241,6 +241,14 @@
     opacity: 0.5;
 }
 
+#projetos-quarto {
+    background-color: black;
+    background-image: url(../img/TMDB.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #projetos-terceiro:hover{
     opacity: 0.85;
 }
