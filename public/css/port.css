@@ -2,13 +2,13 @@
 
 @keyframes tecnologiasPrimeira{
     to {
-        transform: translateX(+500px)
+        transform: translateX(+100px)
     }
 }
 
 @keyframes tecnologiasTerceira{
     to {
-        transform: translateX(-500px)
+        transform: translateX(-100px)
     }
 }
 
@@ -24,21 +24,21 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20%;
+    padding: 10px 20%;
     align-items: center;
     background-color: #DFE0DF;
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     position: fixed;
     z-index: 3;
 }
 
 .logo {
-    height: 100px;
+    height: 50px;
 }
 
 .cabecalho-abas {
-    font-size: 1.4rem;
+    font-size: .7rem;
     width: 30%;
     display: flex;
     justify-content: space-around;
@@ -49,8 +49,8 @@
 .cabecalho-nav-item {
     font-weight: bolder;
     color: #565E77;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
     min-width: fit-content;
 }
 
@@ -79,14 +79,14 @@
 }
 
 .conteudo-banner-titulo{
-    font-size: 6.5rem;
+    font-size: 3.25rem;
     text-align: center;
     font-weight: 1000;
 }
 
 .conteudo-banner-descricao {
     margin-top: 5%;
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     font-weight: 1;
     text-align: right;
     max-width: 50vw;
@@ -94,17 +94,17 @@
 
 .conteudo-banner-botao {
     margin-top: 1%;
-    font-size: 1.3rem;
+    font-size: .65rem;
     font-weight: 200;
     color: hsl(120, 2%, 88%);
     background-color: hsl(263, 29%, 31%);
-    padding: 20px 80px;
-    border-radius: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
     min-width: fit-content;
 }
 
 .conteudo-banner-botao:hover {
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .conteudo-main {
@@ -112,7 +112,7 @@
 }
 
 .conteudo-sobre {
-    padding: 70px 5% 0px;
+    padding: 35px 5% 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,31 +125,31 @@
 .conteudo-sobre-fato {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 300px;
     margin: 5% 10vh;
-    Gap: 50px;
+    Gap: 25px;
 }
 
 .conteudo-sobre-imagem {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin: 0 auto;
 }
 
 .conteudo-sobre-titulo {
     margin: 0 auto;
-    font-size: 3rem;
+    font-size: 1.5rem;
     
 }
 
 .conteudo-sobre-descricao {
     text-align: justify;
     margin: 0 auto;
-    font-size: 1.9rem;
+    font-size: .95rem;
 }
 
 #sobre-imagem-segundo {
-    padding: 15px;
+    padding: 7.5px;
 }
 
 .conteudo-projetos {
@@ -158,7 +158,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 75px;
     background: linear-gradient(180deg, #8597BF, #B9C0BD); 
     color: hsl(225, 16%, 30%);
 }
@@ -170,14 +170,14 @@
 }
 
 .conteudo-projetos-header-titulo {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: 1000;
 }
 
 .conteudo-projetos-header-descricao {
-    margin-top: 50px;
-    font-size: 1.9rem;
+    margin-top: 25px;
+    font-size: .95rem;
     text-align: center;
     font-weight: 500;
     width: fit-content;
@@ -203,22 +203,22 @@
 }
 
 .conteudo-projetos-projeto {
-    width: 800px;
-    height: 400px;
+    width: 400px;
+    height: 200px;
     margin: 1% auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #3D4A3E;
     opacity: 0.7;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .conteudo-projetos-link {
-    width: 800px;
-    height: 400px;
-    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 #projetos-primeiro{
@@ -259,7 +259,7 @@
 
 .conteudo-projetos-nome {
     position: absolute;
-    font-size: 1.9rem;
+    font-size: .95rem;
     text-align: center;
     font-weight: 1000;
     color: white;
@@ -268,17 +268,17 @@
 
 .conteudo-projetos-botao {
     margin-top: 20%;
-    font-size: 1.5rem;
+    font-size: .75rem;
     font-weight: 200;
     color: hsl(120, 2%, 88%);
     background-color: hsl(263, 29%, 31%);
-    padding: 20px 80px;
-    border-radius: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .conteudo-projetos-botao:hover {
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #projetos-botao-mais {
@@ -291,7 +291,7 @@
 
 
 .conteudo-tecnologias {
-    padding-top: 150px;
+    padding-top: 75px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -301,7 +301,7 @@
 
 .conteudo-titulo {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 1000
 }
@@ -310,8 +310,8 @@
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 200px;
-    margin-bottom: 300px;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .conteudo-tecnologia-esquerda {
@@ -336,26 +336,26 @@
 .conteudo-tecnologias-imagens-interesse {
     display: flex;
     padding-top: 10%;
-    border-top: 2px solid #353535;
+    border-top: 1px solid #353535;
     flex-wrap: wrap;
-    width: 750px;
+    width: 375px;
     max-width: 80vw;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .conteudo-tecnologias-imagem-estudo {
-    width: 400px;
+    width: 100px;
     position: relative;
 }
 
 .conteudo-tecnologias-imagem-interesse {
-    width:200px;
+    width:100px;
 }
 
 #tecnologia-imagem-primeiro {
     z-index: 0;
-    left: 150px;
+    left: 70px;
     animation: tecnologiasPrimeira 4s linear infinite alternate-reverse;
 }
 
@@ -365,123 +365,123 @@
 
 #tecnologia-imagem-terceiro {
     z-index: 2;
-    right: 150px;
+    right: 70px;
     animation: tecnologiasTerceira 4s linear infinite alternate-reverse;
 }
 
 
 .conteudo-tecnologias-descricao {
-    width: 750px;
+    width: 375px;
     max-width: 80vw;
-    font-size: 1.9rem;
+    font-size: .95rem;
     text-align: right;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 } 
 
 .conteudo-contato {
-    height: 1140px;
+    height: 570px;
     width: 100%;
     background-image: url(../img/contato1.gif);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     width: 100%;
-    padding-right: 10rem;
+    padding-right: 5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    box-shadow: 0px -30px 40px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px -15px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .conteudo-contato-titulo {
     color: white;
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 1000;
-    margin-top: 20rem;
-    margin-bottom: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 2.5rem;
     background-color: rgba(0, 0, 0, 0.5); 
-    box-shadow: 0px 0px 40px 40px rgba(0, 0, 0, 0.5);
-    border-radius: 100px;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
 }
 
 .conteudo-contato-botoes {
     display: flex;
     align-content: right;
-    gap: 5rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
 .conteudo-contato-botao {
-    height: 76px;
+    height: 38px;
     display: flex;
     justify-content: center;
 }
 
 .conteudo-contato-link{
-    width: 300px;
-    height: 76px;
-    border-radius: 10px;
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
    
 }
 
 .conteudo-contato-link:hover {
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #linkedin {
     background-image: url(https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #link-linkedin, #linkedin {
-    width: 301px;
+    width: 150px;
 }
 
 #github {
     background-image: url(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #link-github, #github {
-    width: 259px;
+    width: 127px;
 }
 
 #email {
     background-image: url(https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #link-email, #email {
-    width: 236px;
+    width: 117px;
 }
 
 #telefone {
     background-image: url(../img/phone.png);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #link-telefone, #telefone {
-    width: 265px;
+    width: 130px;
 }
 
 #whatsapp {
     background-image: url(https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #link-whatsapp, #whatsapp {
-    width: 314px;
+    width: 157px;
 }
 
 .botao-topo {
@@ -491,20 +491,20 @@
 }
 
 .seta-topo {
-    height: 80px;
+    height: 40px;
 }
 
 .rodape {
     display: flex;
     justify-content: space-between;
     gap: 15%;
-    padding: 20px 20% 20px 20%;
+    padding: 10px 20% 10px 20%;
     align-items: center;
     background-color: #B9C0BD;
 }
 
 .rodape-texto {
-    font-size: 1.4rem;
+    font-size: .7rem;
 }
 
 
