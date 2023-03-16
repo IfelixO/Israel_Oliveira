@@ -28,7 +28,7 @@
     padding: 10px 10% 5px;
     align-items: center;
     background-color: #8597BF;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     z-index: 4;
 }
@@ -637,6 +637,7 @@ strong {
 
 
 @media screen and (max-width: 500px) {
+
     .conteudo-tecnologias-imagem-estudo {
         width: 100px;
         position: relative;
