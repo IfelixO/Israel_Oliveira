@@ -27,7 +27,7 @@
     justify-content: space-between;
     padding: 10px 10% 5px;
     align-items: center;
-    background-color: #8597BF;
+    background-color: #8597bf;
     width: 100vw;
     position: fixed;
     z-index: 4;
@@ -48,21 +48,23 @@
 .cabecalho-nav-item {
     font-weight: bolder;
     padding: 5px;
-    border-radius: 5px;
     min-width: fit-content;
+    color: #0C2422;
+    border-bottom: solid 2px #0C2422;
 }
 
 .cabecalho-nav-item:hover {
-    color: white;
+    color: #DFE0DF;
 }
 
 #curriculo {
-    border: solid 2px #005854;
-    color: #005854;
+    border: solid 2px #0C2422;
+    color: #0C2422;
+    border-radius: 5px;
 }
 
 #curriculo:hover {
-    background-color: #005854;
+    background-color: #0C2422;
     color: white;
 }
 
@@ -157,6 +159,7 @@ strong {
     width: 400px;
     max-width: 40vw;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .conteudo-sobre-descricao-paragrafo {
@@ -190,7 +193,6 @@ strong {
 
 .conteudo-sobre-perfil-forma:hover {
     opacity: 0;
-
 }
 
 .conteudo-projetos {
@@ -352,6 +354,7 @@ strong {
 
 .conteudo-tecnologias-imagem-interesse {
     width: 100px;
+    height: 100px;
 }
 
 #tecnologia-imagem-primeiro {
@@ -653,6 +656,7 @@ strong {
     
     .conteudo-tecnologias-imagem-interesse {
         width: 50px;
+        height: 50px;
     }
 
     .conteudo-contato-descricao {
