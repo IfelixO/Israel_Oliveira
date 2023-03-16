@@ -35,6 +35,7 @@
 
 .logo {
     height: 50px;
+    width: 50px;
 }
 
 .cabecalho-abas {
@@ -82,7 +83,7 @@
     padding: 0vh 10vw;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,7 +172,7 @@ strong {
     min-width: 200px;
     height: 22.5vw;
     min-height: 300px;
-    background-image: url(../img/perfil.jpg);
+    background-image: url(../img/perfil.webp);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
@@ -233,7 +234,7 @@ strong {
     height: 100%; 
     position: absolute;
     z-index: 2;
-    background-image: url(../img/gitcard_projeto.jpg);
+    background-image: url(../img/gitcard_projeto.webp);
     background-size: cover;
     background-position: center;
     transition: 1s ease;
@@ -303,6 +304,7 @@ strong {
 }
 
 .conteudo-projetos-projeto-texto-links-link-img {
+    height: 20px;
     width: 20px;
 }
 
@@ -344,11 +346,13 @@ strong {
 }
 
 .conteudo-tecnologias-imagem-estudo {
+    height: 200px;
     width: 200px;
     position: relative;
 }
 
 .conteudo-tecnologias-imagens-estudo {
+    height: 700px;
     width: 700px;
 }
 
@@ -406,12 +410,14 @@ strong {
 
 .conteudo-contato-links-link-img {
     height: 20px;
+    width: 20px;
     margin: 10px;
     transition: 1s ease;
 }
 
 .conteudo-contato-links-link-img:hover {
     height: 30px;
+    width: 30px;
     margin: 5px;
 }
 
@@ -459,6 +465,7 @@ strong {
 
 .seta-topo {
     height: 40px;
+    width: 40px;
 }
 
 .rodape {
@@ -646,11 +653,13 @@ strong {
     }
 
     .conteudo-tecnologias-imagem-estudo {
+        height: 100px;
         width: 100px;
         position: relative;
     }
     
     .conteudo-tecnologias-imagens-estudo {
+        height: 350px;
         width: 350px;
     }
     
