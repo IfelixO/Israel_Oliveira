@@ -88,14 +88,14 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    text-align: end;
+    text-align: right;
 }
 
 .conteudo-banner-chamada {
     font-size: 1rem;
 }
 
-.conteudo-banner-titulo{
+.conteudo-banner-titulo {
     font-size: 3.25rem;
     font-weight: 1000;
     color: white;
@@ -637,6 +637,10 @@ strong {
 
 
 @media screen and (max-width: 500px) {
+
+    .conteudo-banner-titulo {
+        font-size: 2.5rem;
+    }
 
     .conteudo-tecnologias-imagem-estudo {
         width: 100px;
