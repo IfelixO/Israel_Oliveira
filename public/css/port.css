@@ -552,6 +552,7 @@ strong {
     .cabecalho-nav-item {
         font-size: 1.2rem;
         width: 100%;
+        border: none;
         text-align: center;
     }
     
