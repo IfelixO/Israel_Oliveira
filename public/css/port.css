@@ -50,22 +50,20 @@
     font-weight: bolder;
     padding: 5px;
     min-width: fit-content;
-    color: #0C2422;
-    border-bottom: solid 2px #0C2422;
 }
 
 .cabecalho-nav-item:hover {
-    color: #DFE0DF;
+    color: white;
 }
 
 #curriculo {
-    border: solid 2px #0C2422;
-    color: #0C2422;
+    border: solid 2px #032140;
+    color: #032140;
     border-radius: 5px;
 }
 
 #curriculo:hover {
-    background-color: #0C2422;
+    background-color: #032140;
     color: white;
 }
 
